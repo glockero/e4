@@ -22,7 +22,7 @@ body {
   gap: 4px;
   padding: 10px;
   font-size: 2rem;
-  width: 100%;
+  width: 100vw;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -75,7 +75,7 @@ body {
 .landpage .cuadro {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 50%;
   margin-left: 100px;
 }
 
@@ -157,7 +157,7 @@ body {
 }
 
 .section .lado1 .boton {
-margin-top: 30px;
+  margin-top: 30px;
   font-family: "Work Sans";
   font-size: 2rem;
   font-weight: 400;
@@ -169,45 +169,201 @@ margin-top: 30px;
   border: 0px;
 }
 .section .lado2 {
-    background-image: url(/imagenes/auris.webp);
+  background-image: url(/imagenes/auris.webp);
+  background-size: cover;
+  width: 50%;
+  padding: 60px;
+  padding-bottom: 120px;
+}
+
+.section .lado2 .recien {
+  font-family: "Work Sans";
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.section .lado2 .lleva {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+  width: 60%;
+  padding: 20px 0px;
+}
+
+.section .lado2 .auris {
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.section .lado2 .boton {
+  margin-top: 30px;
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    gap: 4px;
+    padding: 10px;
+    font-size: 2rem;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .header .envios {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header h3 {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    padding-left: 20px;
+    font-size: 1.5rem;
+  }
+
+  .navtexto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Aboreto";
+    color: white;
+    padding-right: 50px;
+    gap: 40px;
+    font-size: 1.5rem;
+  }
+
+  .buscar_nav {
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .landpage {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(/imagenes/land\ page.webp);
+    background-size: cover;
+    height: 50rem;
+    object-fit: cover;
+  }
+
+  .landpage .cuadro {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 50px;
+  }
+
+  .landpage .cuadro .mejoresprecios {
+    margin-top: 50px;
+    padding: 0px 20px;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: #d72d2d;
+    color: white;
+    width: fit-content;
+  }
+
+  .landpage .cuadro .super {
+    font-family: "Work Sans", sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    width: 40%;
+    padding: 20px 0px;
+  }
+
+  .landpage .cuadro .gana {
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 400;
+    width: fit-content;
+  }
+
+  .landpage .cuadro .boton {
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 400;
+    width: fit-content;
+    margin: 30px 0px;
+    background-color: #751fff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0px;
+  }
+
+  .section {
+    gap: 30px;
+    padding: 20px;
+    height: 50rem;
+  }
+  .section .lado1 {
+    background-image: url(/imagenes/iphone-short.png);
+    padding: 35px;
+  }
+
+  .section .lado1 .ofertas {
+    font-size: 2.1rem;
+  }
+
+  .section .lado1 .hasta {
+    padding: 20px 0px;
+  }
+
+  .section .lado1 .boton {
+    
+    
+  }
+  .section .lado2 {
+    background-image: url(/imagenes/auris_short.jpg);
     background-size: cover;
     width: 50%;
-    padding: 60px;
-    padding-bottom: 120px;
+    padding: 35px;
   }
-  
+
   .section .lado2 .recien {
     font-family: "Work Sans";
     font-size: 2.1rem;
     font-weight: 400;
     color: white;
   }
-  
+
   .section .lado2 .lleva {
     font-family: "Work Sans", sans-serif;
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 600;
     width: 60%;
     padding: 20px 0px;
   }
+
   
-  .section .lado2 .auris {
-    font-family: "Work Sans";
-    font-size: 2rem;
-    font-weight: 400;
-    color: white;
-  }
-  
-  .section .lado2 .boton {
-  margin-top: 30px;
-    font-family: "Work Sans";
-    font-size: 2rem;
-    font-weight: 400;
-    width: fit-content;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: 0px;
-  }
+}
