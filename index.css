@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  height: 200vh;
+  height: 250vh;
 }
 
 * {
@@ -212,7 +212,19 @@ body {
   border: 0px;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  font-family: "Work Sans";
+  font-size: 2rem;
+  padding: 20px 0px;
+  margin: 0px 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 @media screen and (max-width: 1024px) {
+
+
   .header h3 {
     padding-left: 20px;
     font-size: 1.5rem;
@@ -294,9 +306,7 @@ body {
 
 @media screen and (max-width: 430px) {
 
-/* *{
-    border: solid red 2px;
-} */
+
   .header {
     position: fixed;
     display: flex;
@@ -314,8 +324,11 @@ body {
   }
 
   .header .envios {
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
     background-color: #d72d2d;
-    padding: 5px 40px;
+    padding: 5px 10px;
     margin: 0px;
   }
 
@@ -332,7 +345,6 @@ body {
 
   .landpage {
     margin-top: 45px;
-    height: 40rem;
     background-position: center;
   }
 
@@ -369,9 +381,10 @@ body {
 
   .section {
     flex-direction: column;
-    gap: 30px;
-    padding: 20px;
-    height: 50rem;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 0px;
+    height: 80rem;
   }
   .section .lado1 {
     width: 100%;
@@ -402,4 +415,13 @@ body {
     font-size: 5rem;
     padding: 20px 0px;
   }
+  .cards {
+    font-family: "Work Sans";
+    font-size: 2rem;
+    padding: 10px 0px;
+    margin: 0px 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+
 }
