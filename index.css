@@ -293,6 +293,10 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+
+/* *{
+    border: solid red 2px;
+} */
   .header {
     position: fixed;
     display: flex;
@@ -316,7 +320,7 @@ body {
   }
 
   .header h3 {
-    padding-left: 20px;
+    padding-left: 00px;
     font-size: 1.5rem;
   }
 
@@ -333,7 +337,7 @@ body {
   }
 
   .landpage .cuadro {
-    width: 90%;
+    width: 75%;
     margin-left: 50px;
   }
 
@@ -345,7 +349,7 @@ body {
   }
 
   .landpage .cuadro .super {
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 90%;
     padding: 20px 0px;
     color: white;
@@ -372,7 +376,7 @@ body {
   .section .lado1 {
     width: 100%;
     background-image: url(/imagenes/iphone-short.png);
-    padding: 5px;
+    padding: 15px;
   }
 
   .section .lado1 .ofertas {
@@ -381,12 +385,13 @@ body {
 
   .section .lado1 .hasta {
     padding: 20px 0px;
+    font-size: 4rem;
   }
 
   .section .lado2 {
     background-image: url(/imagenes/auris_short.jpg);
     width: 100%;
-    padding: 5px;
+    padding: 15px;
   }
 
   .section .lado2 .recien {
