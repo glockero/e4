@@ -311,6 +311,12 @@ body {
         left: 0px;
       }
 
+    .header .envios {
+        background-color: #d72d2d;
+        padding: 5px 40px;
+        margin: 0px;
+
+    }
 
     .header h3 {
       padding-left: 20px;
@@ -320,7 +326,7 @@ body {
     .navtexto {
       padding-right: 10px;
       gap:35px;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   
     .landpage {
@@ -342,7 +348,7 @@ body {
     }
   
     .landpage .cuadro .super {
-      font-size: 5rem;
+      font-size: 4rem;
       width: 90%;
       padding: 20px 0px;
     }
@@ -356,7 +362,7 @@ body {
       font-size: 2rem;
       margin: 30px 0px;
       padding: 10px 20px;
-      margin-left: 90px;
+      margin-left: 60px;
     }
   
     .section {
