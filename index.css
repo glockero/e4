@@ -11,7 +11,6 @@ html {
 
 body {
   background-color: #ebebeb;
-
 }
 
 .header {
@@ -24,9 +23,9 @@ body {
   padding: 10px;
   font-size: 2rem;
   width: 100%;
-  top:0px;
-  right:0px;
-  left:0px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .header .envios {
@@ -63,60 +62,152 @@ body {
 }
 
 .landpage {
-margin-top: 50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   background-image: url(/imagenes/land\ page.webp);
   background-size: cover;
   height: 50rem;
   object-fit: cover;
 }
 
-.landpage .cuadro{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    margin-left: 100px;
+.landpage .cuadro {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-left: 100px;
 }
 
-.landpage .cuadro .mejoresprecios{
-    margin-top: 50px;
-    padding: 0px 20px;
-    font-family: "Work Sans";
-    font-size: 2rem ;
-    font-weight: 300;
-    background-color: #d72d2d;
-    color: white;
-    width: fit-content;
+.landpage .cuadro .mejoresprecios {
+  margin-top: 50px;
+  padding: 0px 20px;
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: #d72d2d;
+  color: white;
+  width: fit-content;
 }
 
-.landpage .cuadro .super{
-    font-family: "Work Sans", sans-serif;
-    font-size: 6rem ;
-    font-weight: 600;
+.landpage .cuadro .super {
+  font-family: "Work Sans", sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  width: 50%;
+  padding: 20px 0px;
+}
+
+.landpage .cuadro .gana {
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+}
+
+.landpage .cuadro .boton {
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+  margin: 30px 0px;
+  background-color: #751fff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+  padding: 40px;
+}
+.section .lado1 {
+  background-image: url(/imagenes/iphone.webp);
+  background-size: cover;
+  width: 50%;
+  padding: 60px;
+  padding-bottom: 120px;
+}
+
+.section .lado1 .ofertas {
+  font-family: "Work Sans";
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.section .lado1 .hasta {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-size: 6rem;
+  font-weight: 600;
+  width: 50%;
+  padding: 20px 0px;
+}
+
+.section .lado1 .smart {
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.section .lado1 .boton {
+margin-top: 30px;
+  font-family: "Work Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+}
+.section .lado2 {
+    background-image: url(/imagenes/auris.webp);
+    background-size: cover;
     width: 50%;
-    padding: 20px 0px;
-}
-
-.landpage .cuadro .gana{
+    padding: 60px;
+    padding-bottom: 120px;
+  }
+  
+  .section .lado2 .recien {
     font-family: "Work Sans";
-    font-size: 2rem ;
+    font-size: 2.1rem;
     font-weight: 400;
-    width: fit-content;
-}
-
-.landpage .cuadro .boton{
-    font-family: "Work Sans";
-    font-size: 2rem ;
-    font-weight: 400;
-    width: fit-content;
-    margin: 30px 0px;
-    background-color: #751fff;
     color: white;
+  }
+  
+  .section .lado2 .lleva {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 6rem;
+    font-weight: 600;
+    width: 60%;
+    padding: 20px 0px;
+  }
+  
+  .section .lado2 .auris {
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .section .lado2 .boton {
+  margin-top: 30px;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-weight: 400;
+    width: fit-content;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     border-radius: 25px;
     border: 0px;
-    
-
-}
+  }
