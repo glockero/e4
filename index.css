@@ -212,71 +212,25 @@ body {
   border: 0px;
 }
 
-@media screen and (min-width: 1024px) {
-  .header {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    gap: 4px;
-    padding: 10px;
-    font-size: 2rem;
-    width: 100vw;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-  }
-
-  .header .envios {
-    display: flex;
-    justify-content: end;
-  }
+@media screen and (max-width: 1024px) {
 
   .header h3 {
-    font-family: "Work Sans", sans-serif;
-    color: white;
     padding-left: 20px;
     font-size: 1.5rem;
   }
 
   .navtexto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Aboreto";
-    color: white;
     padding-right: 50px;
     gap: 40px;
     font-size: 1.5rem;
   }
 
-  .buscar_nav {
-    display: flex;
-    gap: 20px;
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
   .landpage {
     margin-top: 45px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-image: url(/imagenes/land\ page.webp);
-    background-size: cover;
-    height: 50rem;
-    object-fit: cover;
+    height: 40rem;
   }
 
   .landpage .cuadro {
-    display: flex;
-    flex-direction: column;
     width: 90%;
     margin-left: 50px;
   }
@@ -284,40 +238,25 @@ body {
   .landpage .cuadro .mejoresprecios {
     margin-top: 50px;
     padding: 0px 20px;
-    font-family: "Work Sans";
     font-size: 2rem;
     font-weight: 300;
-    background-color: #d72d2d;
-    color: white;
-    width: fit-content;
   }
 
   .landpage .cuadro .super {
-    font-family: "Work Sans", sans-serif;
     font-size: 5rem;
-    font-weight: 600;
-    width: 40%;
+    width: 50%;
     padding: 20px 0px;
   }
 
   .landpage .cuadro .gana {
-    font-family: "Work Sans";
     font-size: 2rem;
     font-weight: 400;
-    width: fit-content;
   }
 
   .landpage .cuadro .boton {
-    font-family: "Work Sans";
     font-size: 2rem;
-    font-weight: 400;
-    width: fit-content;
     margin: 30px 0px;
-    background-color: #751fff;
-    color: white;
     padding: 10px 20px;
-    border-radius: 25px;
-    border: 0px;
   }
 
   .section {
@@ -338,32 +277,119 @@ body {
     padding: 20px 0px;
   }
 
-  .section .lado1 .boton {
-    
-    
-  }
   .section .lado2 {
     background-image: url(/imagenes/auris_short.jpg);
-    background-size: cover;
     width: 50%;
     padding: 35px;
   }
 
   .section .lado2 .recien {
-    font-family: "Work Sans";
     font-size: 2.1rem;
-    font-weight: 400;
-    color: white;
   }
 
   .section .lado2 .lleva {
-    font-family: "Work Sans", sans-serif;
-    color: white;
     font-size: 5rem;
-    font-weight: 600;
-    width: 60%;
     padding: 20px 0px;
   }
-
-  
 }
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        gap: 20px;
+        padding: 10px;
+        font-size: 0.5rem;
+        width: 100vw;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+      }
+
+
+    .header h3 {
+      padding-left: 20px;
+      font-size: 1.5rem;
+    }
+  
+    .navtexto {
+      padding-right: 10px;
+      gap:35px;
+      font-size: 1.5rem;
+    }
+  
+    .landpage {
+      margin-top: 45px;
+      height: 40rem;
+      background-position: center;
+    }
+  
+    .landpage .cuadro {
+      width: 90%;
+      margin-left: 50px;
+    }
+  
+    .landpage .cuadro .mejoresprecios {
+      margin-top: 50px;
+      padding: 0px 20px;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+  
+    .landpage .cuadro .super {
+      font-size: 5rem;
+      width: 90%;
+      padding: 20px 0px;
+    }
+  
+    .landpage .cuadro .gana {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  
+    .landpage .cuadro .boton {
+      font-size: 2rem;
+      margin: 30px 0px;
+      padding: 10px 20px;
+      margin-left: 90px;
+    }
+  
+    .section {
+      gap: 30px;
+      padding: 20px;
+      height: 50rem;
+    }
+    .section .lado1 {
+      background-image: url(/imagenes/iphone-short.png);
+      padding: 35px;
+    }
+  
+    .section .lado1 .ofertas {
+      font-size: 2.1rem;
+    }
+  
+    .section .lado1 .hasta {
+      padding: 20px 0px;
+    }
+  
+    .section .lado2 {
+      background-image: url(/imagenes/auris_short.jpg);
+      width: 50%;
+      padding: 35px;
+    }
+  
+    .section .lado2 .recien {
+      font-size: 2.1rem;
+    }
+  
+    .section .lado2 .lleva {
+      font-size: 5rem;
+      padding: 20px 0px;
+    }
+  }
+  
