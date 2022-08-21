@@ -1,0 +1,122 @@
+html {
+  font-size: 10px;
+  height: 200vh;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  gap: 4px;
+  padding: 10px;
+  font-size: 2rem;
+  width: 100%;
+  top:0px;
+  right:0px;
+  left:0px;
+}
+
+.header .envios {
+  display: flex;
+  justify-content: end;
+}
+
+.header h3 {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  padding-left: 20px;
+}
+
+.navtexto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Aboreto";
+  color: white;
+  padding-right: 50px;
+  gap: 40px;
+}
+
+.buscar_nav {
+  display: flex;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.landpage {
+margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-image: url(/imagenes/land\ page.webp);
+  background-size: cover;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.landpage .cuadro{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 100px;
+}
+
+.landpage .cuadro .mejoresprecios{
+    margin-top: 50px;
+    padding: 0px 20px;
+    font-family: "Work Sans";
+    font-size: 2rem ;
+    font-weight: 300;
+    background-color: #d72d2d;
+    color: white;
+    width: fit-content;
+}
+
+.landpage .cuadro .super{
+    font-family: "Work Sans", sans-serif;
+    font-size: 6rem ;
+    font-weight: 600;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.landpage .cuadro .gana{
+    font-family: "Work Sans";
+    font-size: 2rem ;
+    font-weight: 400;
+    width: fit-content;
+}
+
+.landpage .cuadro .boton{
+    font-family: "Work Sans";
+    font-size: 2rem ;
+    font-weight: 400;
+    width: fit-content;
+    margin: 30px 0px;
+    background-color: #751fff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0px;
+    
+
+}
