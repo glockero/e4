@@ -213,7 +213,6 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-
   .header h3 {
     padding-left: 20px;
     font-size: 1.5rem;
@@ -294,108 +293,108 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
-    .header {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        background-color: black;
-        gap: 20px;
-        padding: 10px;
-        font-size: 0.5rem;
-        width: 100vw;
-        top: 0px;
-        right: 0px;
-        left: 0px;
-      }
-
-    .header .envios {
-        background-color: #d72d2d;
-        padding: 5px 40px;
-        margin: 0px;
-
-    }
-
-    .header h3 {
-      padding-left: 20px;
-      font-size: 1.5rem;
-    }
-  
-    .navtexto {
-      padding-right: 10px;
-      gap:35px;
-      font-size: 1.2rem;
-    }
-  
-    .landpage {
-      margin-top: 45px;
-      height: 40rem;
-      background-position: center;
-    }
-  
-    .landpage .cuadro {
-      width: 90%;
-      margin-left: 50px;
-    }
-  
-    .landpage .cuadro .mejoresprecios {
-      margin-top: 50px;
-      padding: 0px 20px;
-      font-size: 2rem;
-      font-weight: 300;
-    }
-  
-    .landpage .cuadro .super {
-      font-size: 4rem;
-      width: 90%;
-      padding: 20px 0px;
-    }
-  
-    .landpage .cuadro .gana {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-  
-    .landpage .cuadro .boton {
-      font-size: 2rem;
-      margin: 30px 0px;
-      padding: 10px 20px;
-      margin-left: 60px;
-    }
-  
-    .section {
-      gap: 30px;
-      padding: 20px;
-      height: 50rem;
-    }
-    .section .lado1 {
-      background-image: url(/imagenes/iphone-short.png);
-      padding: 35px;
-    }
-  
-    .section .lado1 .ofertas {
-      font-size: 2.1rem;
-    }
-  
-    .section .lado1 .hasta {
-      padding: 20px 0px;
-    }
-  
-    .section .lado2 {
-      background-image: url(/imagenes/auris_short.jpg);
-      width: 50%;
-      padding: 35px;
-    }
-  
-    .section .lado2 .recien {
-      font-size: 2.1rem;
-    }
-  
-    .section .lado2 .lleva {
-      font-size: 5rem;
-      padding: 20px 0px;
-    }
+  .header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    padding: 10px;
+    font-size: 0.5rem;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
   }
-  
+
+  .header .envios {
+    background-color: #d72d2d;
+    padding: 5px 40px;
+    margin: 0px;
+  }
+
+  .header h3 {
+    padding-left: 20px;
+    font-size: 1.5rem;
+  }
+
+  .navtexto {
+    padding-right: 10px;
+    gap: 35px;
+    font-size: 1.2rem;
+  }
+
+  .landpage {
+    margin-top: 45px;
+    height: 40rem;
+    background-position: center;
+  }
+
+  .landpage .cuadro {
+    width: 90%;
+    margin-left: 50px;
+  }
+
+  .landpage .cuadro .mejoresprecios {
+    margin-top: 50px;
+    padding: 0px 20px;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .landpage .cuadro .super {
+    font-size: 4rem;
+    width: 90%;
+    padding: 20px 0px;
+    color: white;
+  }
+
+  .landpage .cuadro .gana {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .landpage .cuadro .boton {
+    font-size: 2rem;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    margin-left: 60px;
+  }
+
+  .section {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    height: 50rem;
+  }
+  .section .lado1 {
+    width: 100%;
+    background-image: url(/imagenes/iphone-short.png);
+    padding: 5px;
+  }
+
+  .section .lado1 .ofertas {
+    font-size: 2.1rem;
+  }
+
+  .section .lado1 .hasta {
+    padding: 20px 0px;
+  }
+
+  .section .lado2 {
+    background-image: url(/imagenes/auris_short.jpg);
+    width: 100%;
+    padding: 5px;
+  }
+
+  .section .lado2 .recien {
+    font-size: 2.1rem;
+  }
+
+  .section .lado2 .lleva {
+    font-size: 5rem;
+    padding: 20px 0px;
+  }
+}
