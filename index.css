@@ -27,6 +27,7 @@ body {
   right: 0px;
   left: 0px;
   z-index: 10000;
+  
 }
 
 .header .envios {
@@ -38,6 +39,7 @@ body {
   font-family: "Work Sans", sans-serif;
   color: white;
   padding-left: 20px;
+  font-size: 2rem;
 }
 
 .navtexto {
@@ -48,6 +50,12 @@ body {
   color: white;
   padding-right: 50px;
   gap: 40px;
+font-size: 1.5rem;
+  }
+}
+
+.header .navtexto .nav_text{
+    cursor: pointer;
 }
 
 .buscar_nav {
@@ -375,17 +383,11 @@ body {
     padding-right: 30px;
   }
 
-@media screen and (max-width: 1024px) {
-  .header h3 {
-    padding-left: 20px;
-    font-size: 1.5rem;
-  }
 
-  .navtexto {
-    padding-right: 50px;
-    gap: 40px;
-    font-size: 1.5rem;
-  }
+
+@media screen and (max-width: 1024px) {
+  
+  
 
   .landpage {
     margin-top: 45px;
