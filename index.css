@@ -1,6 +1,5 @@
 html {
   font-size: 10px;
-  height: 250vh;
 }
 
 * {
@@ -52,7 +51,7 @@ body {
   gap: 40px;
 font-size: 1.5rem;
   }
-}
+
 
 .header .navtexto .nav_text{
     cursor: pointer;
@@ -383,16 +382,22 @@ font-size: 1.5rem;
     padding-right: 30px;
   }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nobile';
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+    margin-top: 50px;
+    width: 100%;
+    height: 10rem;
+    background-color: darkslategrey;S
+}
 
 
 @media screen and (max-width: 1024px) {
-  
-  
-
-  .landpage {
-    margin-top: 45px;
-    height: 40rem;
-  }
 
   .landpage .cuadro {
     width: 90%;
