@@ -121,6 +121,7 @@ body {
 .section {
   display: flex;
   justify-content: space-between;
+
   width: 100%;
   gap: 40px;
   padding: 40px;
@@ -212,7 +213,7 @@ body {
   border: 0px;
 }
 
-.cards {
+.productos_destacados {
   display: flex;
   justify-content: center;
   font-family: "Work Sans";
@@ -222,9 +223,157 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.cards {
+  width: 100%;
+  display: flex;
+}
+
+.cards .card1 {
+  width: 280px;
+  height: 350px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards .card1 .cont_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cards .card1 .desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeb868;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.cards .card1 .desc .precio {
+  height: 70px;
+  display: flex;
+  font-family: "Work Sans";
+  font-size: 3.5rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.cards .card1 .desc .precio img {
+  height: 50%;
+}
+
+.cards .card1 .desc .carrito {
+  font-size: 3rem;
+  color: black;
+  padding-right: 30px;
+}
+
+
+.cards .card2 {
+    width: 280px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .cards .card2 .cont_img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .cards .card2 .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeb868;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .cards .card2 .desc .precio {
+    height: 70px;
+    display: flex;
+    font-family: "Work Sans";
+    font-size: 3.5rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .cards .card2 .desc .precio img {
+    height: 50%;
+  }
+  
+  .cards .card2 .desc .carrito {
+    font-size: 3rem;
+    color: black;
+    padding-right: 30px;
+  }
+
+  .cards .card3 {
+    width: 280px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .cards .card3 .cont_img3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .cards .card3 .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeb868;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .cards .card3 .desc .precio {
+    height: 70px;
+    display: flex;
+    font-family: "Work Sans";
+    font-size: 3.5rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .cards .card3 .desc .precio img {
+    height: 50%;
+  }
+  
+  .cards .card3 .desc .carrito {
+    font-size: 3rem;
+    color: black;
+    padding-right: 30px;
+  }
+
 @media screen and (max-width: 1024px) {
-
-
   .header h3 {
     padding-left: 20px;
     font-size: 1.5rem;
@@ -305,8 +454,6 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
-
   .header {
     position: fixed;
     display: flex;
@@ -415,7 +562,7 @@ body {
     font-size: 5rem;
     padding: 20px 0px;
   }
-  .cards {
+  .productos_destacados {
     font-family: "Work Sans";
     font-size: 2rem;
     padding: 10px 0px;
@@ -423,5 +570,10 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
