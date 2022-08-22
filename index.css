@@ -226,7 +226,7 @@ body {
 .cards {
   width: 100%;
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 .cards .card1 {
@@ -568,11 +568,9 @@ body {
     font-size: 2rem;
     padding: 10px 0px;
     margin: 0px 60px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   .cards {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
