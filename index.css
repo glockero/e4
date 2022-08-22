@@ -386,14 +386,14 @@ font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Nobile';
+    font-family: 'Roboto';
     font-weight: 700;
     color: white;
     font-size: 3rem;
     margin-top: 50px;
     width: 100%;
     height: 10rem;
-    background-color: darkslategrey;S
+    background-color: darkslategrey;
 }
 
 
@@ -582,6 +582,11 @@ font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .footer {
+    font-weight: 700;
+    color: white;
+    font-size: 2.5rem;
   }
 }
 
