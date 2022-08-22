@@ -436,6 +436,7 @@ font-size: 1.5rem;
   .section .lado1 {
     background-image: url(/imagenes/iphone-short.png);
     padding: 35px;
+    
   }
 
   .section .lado1 .ofertas {
@@ -443,13 +444,19 @@ font-size: 1.5rem;
   }
 
   .section .lado1 .hasta {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 600;
+    width: 50%;
     padding: 20px 0px;
-  }
+  }    
 
   .section .lado2 {
     background-image: url(/imagenes/auris_short.jpg);
     width: 50%;
     padding: 35px;
+  
   }
 
   .section .lado2 .recien {
