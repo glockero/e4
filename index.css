@@ -440,7 +440,7 @@ font-size: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
-  .cards .card5 .cont_img4 img {
+  .cards .card5 .cont_img5 img {
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -475,6 +475,55 @@ font-size: 1.5rem;
   }
   
   .cards .card5 .desc .carrito {
+    font-size: 3rem;
+    color: black;
+    padding-right: 30px;
+  }
+
+
+  .cards .card6 {
+    width: 280px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .cards .card6 .cont_img6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .cards .card6 .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeb868;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .cards .card6 .desc .precio {
+    height: 70px;
+    display: flex;
+    font-family: "Work Sans";
+    font-size: 3.5rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .cards .card6 .desc .precio img {
+    height: 50%;
+  }
+  
+  .cards .card6 .desc .carrito {
     font-size: 3rem;
     color: black;
     padding-right: 30px;
