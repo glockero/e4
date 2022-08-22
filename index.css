@@ -76,19 +76,18 @@ font-size: 1.5rem;
   width: 100%;
   background-image: url(/imagenes/land\ page.webp);
   background-size: cover;
-  height: 50rem;
-  object-fit: cover;
+  height: 40rem;
 }
 
 .landpage .cuadro {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 .landpage .cuadro .mejoresprecios {
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 0px 20px;
   font-family: "Work Sans";
   font-size: 2rem;
@@ -100,9 +99,9 @@ font-size: 1.5rem;
 
 .landpage .cuadro .super {
   font-family: "Work Sans", sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 600;
-  width: 50%;
+  width: 60%;
   padding: 20px 0px;
 }
 
@@ -129,17 +128,16 @@ font-size: 1.5rem;
 .section {
   display: flex;
   justify-content: space-between;
-
   width: 100%;
   gap: 40px;
   padding: 40px;
 }
 .section .lado1 {
-  background-image: url(/imagenes/iphone.webp);
+  background-image: url(/imagenes/iphone-short.png);
   background-size: cover;
   width: 50%;
   padding: 60px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 .section .lado1 .ofertas {
@@ -152,7 +150,7 @@ font-size: 1.5rem;
 .section .lado1 .hasta {
   font-family: "Work Sans", sans-serif;
   color: white;
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 600;
   width: 50%;
   padding: 20px 0px;
@@ -166,7 +164,7 @@ font-size: 1.5rem;
 }
 
 .section .lado1 .boton {
-  margin-top: 30px;
+  margin-top: 65px;
   font-family: "Work Sans";
   font-size: 2rem;
   font-weight: 400;
@@ -178,11 +176,11 @@ font-size: 1.5rem;
   border: 0px;
 }
 .section .lado2 {
-  background-image: url(/imagenes/auris.webp);
+  background-image: url(/imagenes/auris_short.jpg);
   background-size: cover;
   width: 50%;
   padding: 60px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 .section .lado2 .recien {
