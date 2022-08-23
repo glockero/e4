@@ -68,7 +68,7 @@ body {
 }
 
 .landpage {
-  margin-top: 50px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
