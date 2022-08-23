@@ -367,6 +367,12 @@ body {
   }
 }
 
+@media  screen and (orientation: landscape) {
+    .header{
+      position: unset;
+    }
+  }
+
 @media screen and (max-width: 570px) {
   .header {
     position: fixed;
