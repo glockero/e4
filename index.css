@@ -164,7 +164,6 @@ body {
 
 .section .lado1 .boton {
   margin-top: 60px;
-  position: absolute;
   font-family: "Work Sans";
   font-size: 2rem;
   font-weight: 400;
@@ -364,6 +363,15 @@ body {
   }
   .section .lado2 {
     width: 100%;
+  }
+
+  .section .lado1 .hasta {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 7rem;
+    font-weight: 600;
+    width: 99%;
+    padding: 20px 0px;
   }
 }
 
