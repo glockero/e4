@@ -26,7 +26,6 @@ body {
   right: 0px;
   left: 0px;
   z-index: 10000;
-  
 }
 
 .header .envios {
@@ -49,12 +48,11 @@ body {
   color: white;
   padding-right: 50px;
   gap: 40px;
-font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
+}
 
-
-.header .navtexto .nav_text{
-    cursor: pointer;
+.header .navtexto .nav_text {
+  cursor: pointer;
 }
 
 .buscar_nav {
@@ -73,10 +71,11 @@ font-size: 1.5rem;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   background-image: url(/imagenes/land\ page.webp);
   background-size: cover;
-  height: 40rem;
+  height: 40%;
 }
 
 .landpage .cuadro {
@@ -286,337 +285,75 @@ font-size: 1.5rem;
   padding-right: 30px;
 }
 
-
-.cards .card2 {
-    width: 280px;
-    height: 350px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .cards .card2 .cont_img2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  .cards .card2 .desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eeb868;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .cards .card2 .desc .precio {
-    height: 70px;
-    display: flex;
-    font-family: "Work Sans";
-    font-size: 3.5rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 10px;
-    margin-left: 10px;
-  }
-  
-  .cards .card2 .desc .precio img {
-    height: 50%;
-  }
-  
-  .cards .card2 .desc .carrito {
-    font-size: 3rem;
-    color: black;
-    padding-right: 30px;
-  }
-
-  .cards .card3 {
-    width: 280px;
-    height: 350px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .cards .card3 .cont_img3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  .cards .card3 .desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eeb868;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .cards .card3 .desc .precio {
-    height: 70px;
-    display: flex;
-    font-family: "Work Sans";
-    font-size: 3.5rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 10px;
-    margin-left: 10px;
-  }
-  
-  .cards .card3 .desc .precio img {
-    height: 50%;
-  }
-  
-  .cards .card3 .desc .carrito {
-    font-size: 3rem;
-    color: black;
-    padding-right: 30px;
-  }
-
-
-  .cards .card4 {
-    width: 280px;
-    height: 350px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .cards .card4 .cont_img4 img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  .cards .card4 .desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eeb868;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .cards .card4 .desc .precio {
-    height: 70px;
-    display: flex;
-    font-family: "Work Sans";
-    font-size: 3.5rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 10px;
-    margin-left: 10px;
-  }
-  
-  .cards .card4 .desc .precio img {
-    height: 50%;
-  }
-  
-  .cards .card4 .desc .carrito {
-    font-size: 3rem;
-    color: black;
-    padding-right: 30px;
-  }
-
-  .cards .card5 {
-    width: 280px;
-    height: 350px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .cards .card5 .cont_img5 img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  .cards .card5 .desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eeb868;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .cards .card5 .desc .precio {
-    height: 70px;
-    display: flex;
-    font-family: "Work Sans";
-    font-size: 3.5rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 10px;
-    margin-left: 10px;
-  }
-  
-  .cards .card5 .desc .precio img {
-    height: 50%;
-  }
-  
-  .cards .card5 .desc .carrito {
-    font-size: 3rem;
-    color: black;
-    padding-right: 30px;
-  }
-
-
-  .cards .card6 {
-    width: 280px;
-    height: 350px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .cards .card6 .cont_img6 img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  .cards .card6 .desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eeb868;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  .cards .card6 .desc .precio {
-    height: 70px;
-    display: flex;
-    font-family: "Work Sans";
-    font-size: 3.5rem;
-    font-weight: 600;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 10px;
-    margin-left: 10px;
-  }
-  
-  .cards .card6 .desc .precio img {
-    height: 50%;
-  }
-  
-  .cards .card6 .desc .carrito {
-    font-size: 3rem;
-    color: black;
-    padding-right: 30px;
-  }
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto';
-    font-weight: 700;
-    color: white;
-    font-size: 3rem;
-    margin-top: 50px;
-    width: 100%;
-    height: 10rem;
-    background-color: darkslategrey;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+  font-size: 3rem;
+  margin-top: 50px;
+  width: 100%;
+  height: 10rem;
+  background-color: darkslategrey;
 }
 
+@media screen and (max-width: 937px) {
 
-@media screen and (max-width: 1024px) {
-
-  .landpage .cuadro {
-    width: 90%;
-    margin-left: 50px;
+  .header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
   }
 
-  .landpage .cuadro .mejoresprecios {
-    margin-top: 50px;
-    padding: 0px 20px;
+  .header .envios {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #d72d2d;
+    padding: 8px 10px;
+    margin: 0px;
+    gap: 20px;
+  }
+
+  .header h3 {
+    padding-left: 00px;
     font-size: 2rem;
-    font-weight: 300;
   }
 
-  .landpage .cuadro .super {
-    font-size: 5rem;
-    width: 50%;
-    padding: 20px 0px;
-  }
-
-  .landpage .cuadro .gana {
+  .navtexto {
+    padding-right: 10px;
+    gap: 35px;
     font-size: 2rem;
-    font-weight: 400;
   }
-
-  .landpage .cuadro .boton {
-    font-size: 2rem;
-    margin: 30px 0px;
-    padding: 10px 20px;
+    
+  .landpage {
+    margin-top: 90px;
+    background-position: center;
   }
-
   .section {
-    gap: 30px;
-    padding: 20px;
-    height: 50rem;
+    flex-wrap: wrap;
   }
   .section .lado1 {
-    background-image: url(/imagenes/iphone-short.png);
-    padding: 35px;
-    
+    width: 100%;
   }
-
-  .section .lado1 .ofertas {
-    font-size: 2.1rem;
-  }
-
-  .section .lado1 .hasta {
-    font-family: "Work Sans", sans-serif;
-    color: white;
-    font-size: 5.5rem;
-    font-weight: 600;
-    width: 50%;
-    padding: 20px 0px;
-  }    
-
   .section .lado2 {
-    background-image: url(/imagenes/auris_short.jpg);
-    width: 50%;
-    padding: 35px;
-  
-  }
-
-  .section .lado2 .recien {
-    font-size: 2.1rem;
-  }
-
-  .section .lado2 .lleva {
-    font-size: 5rem;
-    padding: 20px 0px;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 570px) {
   .header {
     position: fixed;
     display: flex;
@@ -635,8 +372,8 @@ font-size: 1.5rem;
 
   .header .envios {
     display: flex;
-    width: 30rem;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
     background-color: #d72d2d;
     padding: 5px 10px;
     margin: 0px;
@@ -644,17 +381,22 @@ font-size: 1.5rem;
 
   .header h3 {
     padding-left: 00px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .navtexto {
-    padding-right: 10px;
-    gap: 35px;
-    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aboreto";
+    color: white;
+    padding-right: 0px;
+    gap: 20px;
+    font-size: 1.4rem;
   }
 
   .landpage {
-    margin-top: 45px;
+    margin-top: 70px;
     background-position: center;
   }
 
@@ -692,9 +434,10 @@ font-size: 1.5rem;
   .section {
     flex-direction: column;
     justify-content: center;
+    flex-wrap: nowrap;
     padding: 10px;
     margin: 20px 0px;
-    height: 80rem;
+    height: 50%;
   }
   .section .lado1 {
     width: 100%;
@@ -730,6 +473,7 @@ font-size: 1.5rem;
     font-size: 2rem;
     padding: 10px 0px;
     margin: 0px 60px;
+    margin-top: 0px;
   }
 
   .cards {
@@ -743,4 +487,3 @@ font-size: 1.5rem;
     font-size: 2.5rem;
   }
 }
-
