@@ -353,7 +353,7 @@ body {
   }
 
   .landpage {
-    margin-top: 90px;
+    margin-top: 0px;
     background-position: center;
   }
   .section {
@@ -370,6 +370,11 @@ body {
 @media  screen and (orientation: landscape) {
     .header{
       position: unset;
+
+    }
+
+    .landpage{
+      margin-top: 0px;
     }
   }
 
