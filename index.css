@@ -353,6 +353,7 @@ body {
   }
 }
 
+
 @media screen and (max-width: 570px) {
   .header {
     position: fixed;
@@ -486,4 +487,63 @@ body {
     color: white;
     font-size: 2.5rem;
   }
+}
+
+@media screen and (max-width: 380px) {
+
+  .header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    gap: 0px;
+    padding: 10px;
+    font-size: 5rem;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .header .envios {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #b11f1c;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  .header h3 {
+    padding-left: 00px;
+    font-size: 1.4rem;
+  }
+
+  .navtexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Aboreto";
+    color: white;
+    padding-right: 0px;
+    gap: 20px;
+    font-size: 1rem;
+  }
+
+  .landpage {
+    justify-content: center;
+    align-items: center;
+  }
+  .productos_destacados {
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 0px;
+    width: 90%;
+  }
+
+
+
 }
