@@ -163,17 +163,17 @@ body {
 }
 
 .section .lado1 .boton {
-  margin-top: 65px;
+  margin-top: 60px;
+  position: absolute;
   font-family: "Work Sans";
   font-size: 2rem;
   font-weight: 400;
-  width: fit-content;
+  /* width: fit-content; */
   background-color: white;
   color: black;
   padding: 10px 20px;
   border-radius: 25px;
   border: 0px;
-  margin-bottom: auto;
 }
 .section .lado2 {
   background-image: url(/imagenes/auris_short.jpg);
