@@ -10,7 +10,6 @@ html {
 
 body {
   background-color: #ebebeb;
-  
 }
 
 .header {
@@ -21,12 +20,21 @@ body {
   background-color: black;
   gap: 4px;
   padding: 10px;
-  font-size: 2rem;
+  font-size: 3rem;
   width: 100%;
   top: 0px;
   right: 0px;
   left: 0px;
   z-index: 10000;
+}
+
+.header .check {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
 }
 
 .header .envios {
@@ -49,7 +57,7 @@ body {
   color: white;
   padding-right: 50px;
   gap: 40px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .header .navtexto .nav_text {
@@ -314,7 +322,7 @@ body {
   background-color: darkslategrey;
 }
 
-@media screen and (max-width: 937px) {
+@media screen and (max-width: 990px) {
   .header {
     position: fixed;
     display: flex;
@@ -353,7 +361,7 @@ body {
   }
 
   .landpage {
-    margin-top: 0px;
+    margin-top: 30px;
     background-position: center;
   }
   .section {
@@ -376,26 +384,25 @@ body {
   }
 }
 
-@media  screen and (orientation: landscape) {
-    .header{
-      position: unset;
-
-    }
-
-    .landpage{
-      margin-top: 0px;
-    }
+@media screen and (orientation: landscape) {
+  .header {
+    position: unset;
   }
+
+  .landpage {
+    margin-top: 0px;
+  }
+}
 
 @media screen and (max-width: 570px) {
   .header {
     position: fixed;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    gap: 20px;
+    background-color: #b11f1c;
+    gap: 10px;
     padding: 10px;
     font-size: 0.5rem;
     width: 100vw;
@@ -404,13 +411,21 @@ body {
     left: 0px;
   }
 
+  .header .envios .camion {
+    font-size: 36px;
+  }
+
+  .header .check {
+    display: unset;
+  }
+
   .header .envios {
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: #b11f1c;
     padding: 5px 10px;
-    margin: 0px;
   }
 
   .header h3 {
@@ -419,18 +434,44 @@ body {
   }
 
   .navtexto {
-    display: flex;
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 550px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-family: "Aboreto";
-    color: white;
-    padding-right: 0px;
-    gap: 20px;
-    font-size: 1.4rem;
+    gap: 30px;
+    font-size: 3rem;
+    transform: translateX(220%);
+    transition: all 1s ease-out;
   }
 
+  .header .check {
+    display: unset;
+    color: black;
+  }
+
+  #toggle-menu:checked ~ #nav {
+    transform: translateX(0%);
+    transition: all 1s ease-in;
+  }
+
+  .buscar_nav {
+    margin-top: -0px;
+    display: flex;
+    gap: 0px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .landpage {
-    margin-top: 70px;
+    margin-top: 50px;
     background-position: center;
   }
 
@@ -526,46 +567,83 @@ body {
   .header {
     position: fixed;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    gap: 0px;
+    background-color: #b11f1c;
+    gap: 10px;
     padding: 10px;
-    font-size: 5rem;
+    font-size: 0.5rem;
     width: 100vw;
     top: 0px;
     right: 0px;
     left: 0px;
   }
 
+  .header .envios .camion {
+    font-size: 36px;
+  }
+
+  .header .check {
+    display: unset;
+  }
+
   .header .envios {
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: #b11f1c;
     padding: 5px 10px;
-    margin-bottom: 10px;
   }
 
   .header h3 {
     padding-left: 00px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .navtexto {
-    display: flex;
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 550px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-family: "Aboreto";
-    color: white;
-    padding-right: 0px;
-    gap: 20px;
-    font-size: 1rem;
+    gap: 30px;
+    font-size: 3rem;
+    transform: translateX(220%);
+    transition: all 1s ease-out;
+  }
+
+  .header .check {
+    display: unset;
+    color: black;
+  }
+
+  #toggle-menu:checked ~ #nav {
+    transform: translateX(0%);
+    transition: all 1s ease-in;
+  }
+
+  .buscar_nav {
+    margin-top: -0px;
+    display: flex;
+    gap: 0px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .landpage {
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
   .productos_destacados {
     font-family: "Work Sans";
@@ -574,5 +652,10 @@ body {
     margin: auto;
     margin-top: 0px;
     width: 90%;
+  }
+
+  .landpage .cuadro .boton {
+    margin: 20px 0px;
+    padding: 10px 20px;
   }
 }

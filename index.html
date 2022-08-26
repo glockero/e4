@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ENTREGA E4</title>
     <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
+     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="/index.css" />
+   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Exo+2&family=Nobile:wght@700&family=Play:wght@700&family=Roboto:wght@900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;1,700&display=swap"
+       href="https://fonts.googleapis.com/css2?family=Aboreto&family=Exo+2&family=Nobile:wght@700&family=Play:wght@700&family=Roboto:wght@900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;1,700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -23,10 +25,12 @@
     <header class="header">
       <div class="envios">
         <h3>Envios gratis a partir de $1500</h3>
-        <h3><i class="fa-solid fa-truck-fast"></i></h3>
-      </div>
-
-      <div class="navtexto">
+        <h3 class="camion"><i class="fa-solid fa-truck-fast"></i></h3>
+      </div>      
+        <label for="toggle-menu"><i class="fas fa-bars check"></i></label>
+        <input type="checkbox" id="toggle-menu">
+      <div class="navtexto" id="nav">
+        
         <div class="buscar_nav items">
           <h5>BUSCAR</h5>
           <h5><i class="fa-solid fa-magnifying-glass"></i></h5>
@@ -42,6 +46,8 @@
         <h1 class="super">Súper precios en tus artículos favoritos</h1>
         <h3 class="gana">Gana más por tu dinero</h3>
         <button class="boton hvr-wobble-vertical">Comprar ahora</button>
+        <!-- <button class="boton"><span>Comprar ahora</span> </button> -->
+      </div>
       </div>
     </div>
     <section class="section">
