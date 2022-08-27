@@ -385,9 +385,7 @@ body {
 }
 
 @media screen and (orientation: landscape) {
-  .header {
-    position: unset;
-  }
+ 
 
   .landpage {
     margin-top: 0px;
@@ -409,10 +407,12 @@ body {
     top: 0px;
     right: 0px;
     left: 0px;
+    
   }
 
   .header .envios .camion {
     font-size: 36px;
+    
   }
 
   .header .check {
@@ -426,6 +426,7 @@ body {
     align-items: center;
     background-color: #b11f1c;
     padding: 5px 10px;
+    
   }
 
   .header h3 {
@@ -444,8 +445,10 @@ body {
     justify-content: center;
     gap: 30px;
     font-size: 3rem;
-    transform: translateX(220%);
+    transform: translatey(-220%);
     transition: all 1s ease-out;
+    z-index: -1000000;
+    
   }
 
   .header .check {
@@ -454,7 +457,7 @@ body {
   }
 
   #toggle-menu:checked ~ #nav {
-    transform: translateX(0%);
+    transform: translatey(0%);
     transition: all 1s ease-in;
   }
 
