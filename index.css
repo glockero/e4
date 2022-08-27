@@ -77,6 +77,7 @@ body {
 }
 
 .landpage {
+  position: relative;
   margin-top: 0px;
   display: flex;
   flex-direction: column;
@@ -95,7 +96,7 @@ body {
 }
 
 .landpage .cuadro .mejoresprecios {
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 0px 20px;
   font-family: "Work Sans";
   font-size: 2rem;
@@ -437,7 +438,7 @@ body {
   .navtexto {
     background-color: black;
     width: 100%;
-    height: calc(100vh - 550px);
+    height: calc(100vh - 350px);
     position: absolute;
     top: 70px;
     left: 0;
@@ -609,7 +610,7 @@ body {
   .navtexto {
     background-color: black;
     width: 100%;
-    height: calc(100vh - 550px);
+    height: calc(100vh - 350px);
     position: absolute;
     top: 70px;
     left: 0;
