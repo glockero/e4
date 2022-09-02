@@ -17,7 +17,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+
+  background-image: linear-gradient(
+    135deg,
+    rgb(203, 94, 238) 0%,
+    rgb(75, 225, 236) 100%
+  );
+
+  background-repeat: no-repeat;
+
   gap: 4px;
   padding: 10px;
   font-size: 3rem;
@@ -77,11 +85,9 @@ body {
   transition-duration: 1s;
 }
 
-.buscar_nav:hover{
-
+.buscar_nav:hover {
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .landpage {
@@ -331,12 +337,11 @@ body {
   background-color: darkslategrey;
 }
 
-.footer h4{
-  transition-duration:1s;
+.footer h4 {
+  transition-duration: 1s;
 }
 
 .footer h4:hover {
-
   transform: scaleX(1.3);
 }
 
@@ -349,9 +354,9 @@ body {
     justify-content: space-between;
     background-color: black;
     gap: 20px;
-    padding: 10px;
+    padding: 0px;
     font-size: 1rem;
-    width: 100vw;
+    width: 100%;
     top: 0px;
     right: 0px;
     left: 0px;
@@ -374,6 +379,7 @@ body {
 
   .navtexto {
     padding-right: 10px;
+    padding-bottom: 20px;
     gap: 35px;
     font-size: 2rem;
   }
@@ -403,8 +409,6 @@ body {
 }
 
 @media screen and (orientation: landscape) {
- 
-
   .landpage {
     margin-top: 0px;
   }
@@ -425,12 +429,10 @@ body {
     top: 0px;
     right: 0px;
     left: 0px;
-    
   }
 
   .header .envios .camion {
     font-size: 36px;
-    
   }
 
   .header .check {
@@ -444,7 +446,6 @@ body {
     align-items: center;
     background-color: #b11f1c;
     padding: 5px 10px;
-    
   }
 
   .header h3 {
@@ -465,12 +466,9 @@ body {
     font-size: 3rem;
     transform: translatey(-220%);
     transition: all 1s ease-out;
-  
-    
-    
   }
 
-    .header .check {
+  .header .check {
     display: unset;
     color: black;
   }
